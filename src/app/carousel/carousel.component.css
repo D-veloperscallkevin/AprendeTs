@@ -1,0 +1,28 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+    max-width: 50%;
+    height: 400px;
+    background-color: aqua;
+}
+
+.contenido{
+    display: flex;
+    width: 400px;
+    height: 170px;
+    background-color: cadetblue;
+}
+.contenido1{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 10px 10px 0 0;
+}
+
+img{
+    border-radius: 0 0 10px 10px;
+}
