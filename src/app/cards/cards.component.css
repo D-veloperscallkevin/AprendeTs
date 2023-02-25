@@ -5,11 +5,20 @@
 .contenido{
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
 }
 .contenido2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 30px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    display: flex;
+    margin: auto;
 }

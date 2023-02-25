@@ -1,11 +1,25 @@
 .contenedor{
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .contenido{
     display: flex;
     flex-direction: column;
+    padding: 20px;
+}
+.contenido1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+}
+button{
+    margin: auto;
+    width: 100px;
+}
+label{
+    font-weight: 700;
 }

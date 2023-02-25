@@ -2,14 +2,20 @@
     display: flex;
     width: 1366px;
     height: 400px;
-    background-color: blue;
-    justify-content: space-evenly;
+    background-color: rgb(104, 194, 243);
+    justify-content: space-around;
     align-items: center;
 }
 
 .cuadro{
     display: flex;
+    color: aliceblue;
+    background-color: rgb(42, 126, 165 , 0.3);
+    font-size:22px;
+    text-align:center;
+    padding: 15px;
     width: 300px;
     height: 350px;
-    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px;
 }

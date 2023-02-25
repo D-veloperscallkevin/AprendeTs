@@ -2,20 +2,26 @@
     display: flex;
     margin: auto;
     padding: 20px;
-    width: 700px;
-    height: 300px;
-    background-color: blue;
+    width: 800px;
+    height: 450px;
     justify-content: space-around;
     flex-direction: column;
     flex-wrap: nowrap;
 }
 .titulo{
     display: flex;
+    flex-direction: column;
+    background-color:rgb(104, 194, 243);
+    text-align: justify;
     height: 1000px;
-    background-color:aqua;
+    border-radius: 5px;
+    padding: 20px;
 }
-.titulo1{
-    display: flex;
-    height: 100px;
-    background-color:blueviolet;
+h2{
+    margin: auto;
+    font-weight: bolder;
+    color: aliceblue;
+}
+p{
+    font-weight: 600;
 }
